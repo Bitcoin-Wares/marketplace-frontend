@@ -1,0 +1,21 @@
+/* src/index.css */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('/img-bk.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through background */
+}
