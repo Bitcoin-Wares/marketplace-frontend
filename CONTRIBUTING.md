@@ -9,8 +9,7 @@ We welcome contributions! Please follow these steps:
 5. Open a pull request.
 
 Focus areas:
-- Splash page enhancements.
 - Nostr login UI.
-- Bug fixes for AdSense integration.
+- Open map integration addressing and gps features
 
 Contact: sovtoshi@sovereigncraft.com
