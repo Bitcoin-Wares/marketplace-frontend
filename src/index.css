@@ -1,11 +1,10 @@
 /* src/index.css */
-body, html {
+body, html, #root {
   height: 100%;
   margin: 0;
 }
 
 .bg {
-  background-image: url('/img-bk.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;

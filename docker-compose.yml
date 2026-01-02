@@ -9,12 +9,13 @@ services:
     networks:
       - marketplace-network
   frontend-dev:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
     ports:
-      - "3001:3001"
+      - "3001:3000"
     environment:
       - NODE_ENV=development
-    command: ["npm", "start"]
     volumes:
       - .:/app
       - /app/node_modules
