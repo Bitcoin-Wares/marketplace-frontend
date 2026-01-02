@@ -6,12 +6,9 @@ const SplashPage = () => {
   return (
     <div className="bg" style={{ backgroundImage: `url(/img-bk.jpg)` }}>
       <div className="overlay">
-        <div style={{ position: 'absolute', top: '20px', right: '20px' }}>
-          <button className="btn btn-primary">Login</button>
-        </div>
         <div className="d-flex align-items-center justify-content-center" style={{ height: '100%' }}>
           <div className="text-center text-white">
-            <h1 className="display-3">Welcome to Bitcoinwares</h1>
+            <h1 className="display-3">Welcome to Bitcoin Wares</h1>
             <p className="lead">We are building your hub to goods and services.</p>
             <p className="lead">Check back with us soon!</p>
           </div>
